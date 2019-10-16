@@ -1,0 +1,9 @@
+#+TITLE: Simple calculator app
+
+** startup
+   [[./imgs/screenshot.png]]
+** example
+- from this
+  [[./imgs/screenshot2.png]]
+- to this
+  [[./imgs/screenshot3.png]]

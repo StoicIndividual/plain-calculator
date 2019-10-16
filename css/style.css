@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    text-align:center;
+}
+
+#content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#content #calcbody {
+    font-family: DejaVu Sans Mono;
+    background: DarkGray;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+#content #calcbody .display {
+    background: #95a799;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#content #calcbody .display p {
+    margin:0;
+    font-size: 1.5em;
+}
+
+#content #calcbody .display span {
+    margin:0;
+    font-size: 1.5em;
+}
+
+#content #calcbody .buttonsbody {
+    background: DarkGray;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding: 0px 20px 20px 20px;
+}
+
+
+#content #calcbody .buttonsbody .buttons {
+    margin-top: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#content #calcbody .buttonsbody .buttons button {
+    font-size:1.5em;
+}
+
+#content #calcbody .buttonsbody .numbers button{
+    background: #66CCFF;
+    color:white;
+    border:1px solid gray;
+}
+
+#content #calcbody .buttonsbody .numbers button:hover{
+    background: #3D7A99;
+    color:white;
+    border:1px solid gray;
+}
+
+
+.row1 button,
+.row2 button,
+.row3 button {
+    width:100px;
+    height:100px;
+}
+.row4 button,
+.row5 button {
+    width:75px;
+    height:75px;
+}
+
+#content #calcbody .buttonsbody .functions button {
+    background: #333;
+    color:white;
+    border:1px solid gray;
+}
+#content #calcbody .buttonsbody .functions button:hover {
+    background: #111;
+    color:white;
+    border:1px solid gray;
+}
+
+#content #calcbody .display {
+    display: flex;
+}
+
+#content #calcbody .display .output {
+    margin-left: auto;
+}
