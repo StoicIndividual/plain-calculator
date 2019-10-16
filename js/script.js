@@ -10,6 +10,7 @@ const startCalc = () => {
     Buttons.forEach(button => {
 	button.addEventListener('click', function(){
 	    displayP.innerHTML='';
+	    displayR.innerHTML='';
 	    const addToDisplay = document.createTextNode(this.value);
     	    displayS.appendChild(addToDisplay);
 	});	
@@ -21,9 +22,6 @@ const startCalc = () => {
 		const cleared = displaySValue.slice(0, displaySValue.length - 1);
 		displayS.innerHTML = cleared;
 	    } else if (operator.classList.contains("equal")) {
-		const input = displayS.innerHTML;
-		const numbers = input.split(/\D/g);
-		const op = input.split(/\d/g).filter(Boolean);
 		const displayArr=displayS.innerHTML.split(' ');
 		const displayString=displayArr.toString();
 		const displayOnDisplay= new Function('return '+displayString);
