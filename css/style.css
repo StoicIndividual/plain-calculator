@@ -20,6 +20,9 @@ body {
     box-sizing: border-box;
     padding: 20px;
     border: 1px solid gray;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #content #calcbody .display {
@@ -27,6 +30,7 @@ body {
     border: 1px solid black;
     box-sizing: border-box;
     padding: 20px;
+    width: 450px;
 }
 
 #content #calcbody .display p {
@@ -75,9 +79,10 @@ body {
 .row1 button,
 .row2 button,
 .row3 button {
-    width:100px;
-    height:100px;
+    width:75px;
+    height:75px;
 }
+
 .row4 button,
 .row5 button {
     width:75px;
@@ -101,4 +106,23 @@ body {
 
 #content #calcbody .display .output {
     margin-left: auto;
+}
+
+#content #calcbody .buttonsbody .history {
+    display:flex;
+    flex-direction:column;
+}
+
+#content #calcbody .buttonsbody .history button {
+    width:75px;
+    height:150px;
+    background: #333;
+    color:white;
+    border:1px solid gray;
+}
+
+#content #calcbody .buttonsbody .history button:hover {
+    background: #111;
+    color:white;
+    border:1px solid gray;
 }
