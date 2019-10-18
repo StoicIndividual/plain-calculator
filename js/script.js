@@ -8,7 +8,7 @@ const startCalc = () => {
     const Operators = document.querySelectorAll('#content #calcbody .buttonsbody .functions button');
     //for history
     const forwardAndBack = document.querySelectorAll('#content #calcbody .buttonsbody .history button')
-    const histArr = [];
+    let histArr = [];
     let futArr = [];
 
     forwardAndBack.forEach(time => {
@@ -105,6 +105,8 @@ const startCalc = () => {
 		displayS.innerHTML='';
 
 	    } else if (operator.classList.contains("reset")) {
+		histArr = [];
+		futArr = [];
 		displayP.innerHTML='Output goes here...';
 		displayR.innerHTML='';
 		displayS.innerHTML='';   
