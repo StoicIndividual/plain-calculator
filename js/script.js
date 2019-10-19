@@ -97,7 +97,9 @@ const startCalc = () => {
 	    } else if (operator.classList.contains("equal")) {
 		const displayArr=displayS.innerHTML.split(' ');
 		const displayString=displayArr.toString();
-		const displayOnDisplay= new Function('return '+displayString);
+		const displayRMult=displayString.replace(/×/g, "*");
+		const displayRDivi=displayRMult.replace(/÷/g, "/");
+		const displayOnDisplay= new Function('return '+displayRDivi);
 		// or const displayOnDisplay = eval(displayString); but not recomended?
 		displayR.innerHTML=displayOnDisplay();
 		
