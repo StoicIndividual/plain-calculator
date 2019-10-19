@@ -1,6 +1,6 @@
+#+TITLE: Plain Calculator
 see a live demo at [[https://stoicindividual.github.io/plain-calculator/]]
-* startup
-   [[./imgs/screenshot.png]]
+[[./imgs/screenshot.png]]
 * example
 ** from this
   [[./imgs/screenshot2.png]]
