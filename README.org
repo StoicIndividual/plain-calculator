@@ -1,7 +1,7 @@
 #+TITLE: Plain Calculator
 see a live demo at [[https://stoicindividual.github.io/plain-calculator/]]
 [[./imgs/screenshot1.png]]
-* example
+* Example
 ** from this
   [[./imgs/screenshot2.png]]
 ** to this
