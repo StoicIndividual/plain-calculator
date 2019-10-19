@@ -1,6 +1,4 @@
-#+TITLE: Simple calculator app
-
-see a live demo at [[https://stoicindividual.github.io/simple-calculator/]]
+see a live demo at [[https://stoicindividual.github.io/plain-calculator/]]
 * startup
    [[./imgs/screenshot.png]]
 * example
