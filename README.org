@@ -2,7 +2,7 @@
 see a live demo at [[https://stoicindividual.github.io/plain-calculator/]]
 [[./imgs/screenshot1.png]]
 * example
-- from this
+  from this
   [[./imgs/screenshot2.png]]
-- to this
+  to this
   [[./imgs/screenshot3.png]]
